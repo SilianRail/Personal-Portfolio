@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -23,27 +23,30 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </article>
-
-            <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>Courses: CMPT276, Projects</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>3 Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos voluptatem eius dolorem maiores nihil ducimus at rem ullam reprehenderit quidem quia deserunt, molestiae, eligendi amet repellat molestias quos totam.
+            I am a second year Computer Science student. My academic journey has been a rich source of 
+            knowledge and hands-on experience, fully equipping me with the technical proficiency required for the role.
+            My robust foundation in web development fundamentals,
+            includig HTML, JavaScript, CSS, and AJAX, has been honed through the creation of two functional websites.
+            Notably, my most recent project, akin to 'Stack Overflow,' presented intricate challenges that I skillfully
+            navigated. This experience has fortified my debugging skills and adaptability, ensuring that I can excel both
+            independently and as a collaborative team member. In terms of back-end technologies, I have diligently pursued
+            online courses and actively engaged with JavaScript frameworks like Angular5 and database technologies such
+            as MySQL. I have applied these concepts to my personal websites to perform search and store operations on the
+            information stored. These experiences have uniquely prepared me to tackle the multifaceted challenges of web
+            development effectively.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
